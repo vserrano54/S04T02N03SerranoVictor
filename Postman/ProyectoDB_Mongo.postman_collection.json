@@ -1,0 +1,428 @@
+{
+	"info": {
+		"_postman_id": "2a62f502-d1bf-4374-9a96-8ca80e07aad4",
+		"name": "ProyectoDB_Mongo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15335648"
+	},
+	"item": [
+		{
+			"name": "add/64c8e8449c30ef155f963b0b",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Manzana\",\r\n    \"cantidadKilos\": 3.50\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/add",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add/64c8e8a29c30ef155f963b0c",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Arándano\",\r\n    \"cantidadKilos\":6.8\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/add",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add/64c8e8d89c30ef155f963b0d",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Fresa\",\r\n    \"cantidadKilos\":7.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/add",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add/64c8e90b9c30ef155f963b0e",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Mandarina\",\r\n    \"cantidadKilos\":8.20\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/add",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add/64c8e9bf9c30ef155f963b0f",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Naranja madura\",\r\n    \"cantidadKilos\": 4.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/add",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Manzana\",\r\n    \"cantidadKilos\": 3.50\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/getAll",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOne/64c8e8449c30ef155f963b0b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Manzana\",\r\n    \"cantidadKilos\": 3.50\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/getOne/64c8e8449c30ef155f963b0b",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getOne",
+						"64c8e8449c30ef155f963b0b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOne/64c8e8a29c30ef155f963b0c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Manzana\",\r\n    \"cantidadKilos\": 3.50\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/getOne/64c8e8a29c30ef155f963b0c",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getOne",
+						"64c8e8a29c30ef155f963b0c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOne/64c8e8d89c30ef155f963b0d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Manzana\",\r\n    \"cantidadKilos\": 3.50\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/getOne/64c8e8d89c30ef155f963b0d",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getOne",
+						"64c8e8d89c30ef155f963b0d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOne/64c8e90b9c30ef155f963b0e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Manzana\",\r\n    \"cantidadKilos\": 3.50\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/getOne/64c8e90b9c30ef155f963b0e",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getOne",
+						"64c8e90b9c30ef155f963b0e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOne/64c8e9bf9c30ef155f963b0f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Manzana\",\r\n    \"cantidadKilos\": 3.50\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/getOne/64c8e9bf9c30ef155f963b0f",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getOne",
+						"64c8e9bf9c30ef155f963b0f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update/64c8e9bf9c30ef155f963b0f",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": \"64c8e9bf9c30ef155f963b0f\",\r\n        \"nombre\": \"Naranja Madura\",\r\n        \"cantidadKilos\": 3.5\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/update/64c8e9bf9c30ef155f963b0f",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"update",
+						"64c8e9bf9c30ef155f963b0f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update/64c8e90b9c30ef155f963b0e",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"64c8e90b9c30ef155f963b0e\",\r\n    \"nombre\": \"Mandarina Grande\",\r\n    \"cantidadKilos\": 8.2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/update/64c8e90b9c30ef155f963b0e",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"update",
+						"64c8e90b9c30ef155f963b0e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete/64c8e9bf9c30ef155f963b0f",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Servidor}}:{{Puerto}}/fruta/delete/64c8e9bf9c30ef155f963b0f",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"delete",
+						"64c8e9bf9c30ef155f963b0f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
